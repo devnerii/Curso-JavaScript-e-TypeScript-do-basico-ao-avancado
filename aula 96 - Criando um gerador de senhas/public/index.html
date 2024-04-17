@@ -5,16 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Modelo</title>
+  <title>Model</title>
 </head>
 
 <body>
 
   <section class="container">
     <h1>Password generator</h1>
-    <div class="password-generated"></div>
+    <div class="password-generated">Select the options</div>
 
-    quantify of caracthers
+    quantify of characters: <input value="20" type="number" min="1" max="50" class="qtf-characters"><br>
+    add upper case <input type="checkbox" class="chk-uppercase" checked><br>
+    add lower case <input type="checkbox" class="chk-lowercase" checked><br>
+    add numbers <input type="checkbox" class="chk-numbers" checked><br>
+    add symbols <input type="checkbox" class="chk-symbols" checked><br>
+    <button class="generate-password">To Generate</button>
   </section>
 
   <script src="./assets/js/bundle.js"></script>
